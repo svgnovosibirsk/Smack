@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E0327FE22C761F300373F01 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0327FD22C761F300373F01 /* RoundedButton.swift */; };
+		1E03280022C85E2F00373F01 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0327FF22C85E2F00373F01 /* UserDataService.swift */; };
 		1E2A85E622C739DD001C7CD0 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A85E522C739DD001C7CD0 /* AuthService.swift */; };
 		1E54FA2222B5EAF800584E73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E54FA2122B5EAF800584E73 /* AppDelegate.swift */; };
 		1E54FA2722B5EAF800584E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E54FA2522B5EAF800584E73 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		1E0327FD22C761F300373F01 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		1E0327FF22C85E2F00373F01 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		1E2A85E522C739DD001C7CD0 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		1E54FA1E22B5EAF800584E73 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E54FA2122B5EAF800584E73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				1E2A85E522C739DD001C7CD0 /* AuthService.swift */,
+				1E0327FF22C85E2F00373F01 /* UserDataService.swift */,
 			);
 			path = Servicies;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				1E76715422BDCBA200FF2A66 /* ChannelVC.swift in Sources */,
 				1E0327FE22C761F300373F01 /* RoundedButton.swift in Sources */,
 				1E76715222BDCB6E00FF2A66 /* ChatVC.swift in Sources */,
+				1E03280022C85E2F00373F01 /* UserDataService.swift in Sources */,
 				1E76715D22BE25AE00FF2A66 /* CreateAccountVC.swift in Sources */,
 				1E2A85E622C739DD001C7CD0 /* AuthService.swift in Sources */,
 				1E76715B22BE156700FF2A66 /* LoginVC.swift in Sources */,
