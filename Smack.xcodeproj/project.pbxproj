@@ -15,6 +15,8 @@
 		1E54FA2922B5EB0100584E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E54FA2822B5EB0100584E73 /* Assets.xcassets */; };
 		1E54FA2C22B5EB0100584E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E54FA2A22B5EB0100584E73 /* LaunchScreen.storyboard */; };
 		1E54FA3722B6058100584E73 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E54FA3522B6058100584E73 /* SWRevealViewController.m */; };
+		1E6E97DD22D976F200E313E1 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E97DB22D976F200E313E1 /* ProfileVC.swift */; };
+		1E6E97DE22D976F200E313E1 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E97DC22D976F200E313E1 /* ProfileVC.xib */; };
 		1E76715222BDCB6E00FF2A66 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76715122BDCB6E00FF2A66 /* ChatVC.swift */; };
 		1E76715422BDCBA200FF2A66 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76715322BDCBA200FF2A66 /* ChannelVC.swift */; };
 		1E76715622BDDFE400FF2A66 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76715522BDDFE400FF2A66 /* GradientView.swift */; };
@@ -40,6 +42,8 @@
 		1E54FA3422B6058000584E73 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		1E54FA3522B6058100584E73 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "Smack Assets/SWReveal/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
 		1E54FA3622B6058100584E73 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "Smack Assets/SWReveal/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
+		1E6E97DB22D976F200E313E1 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		1E6E97DC22D976F200E313E1 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		1E76715122BDCB6E00FF2A66 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		1E76715322BDCBA200FF2A66 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		1E76715522BDDFE400FF2A66 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 		1E54FA2022B5EAF800584E73 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				1E6E97DF22D9772D00E313E1 /* XIBs */,
 				1E2A85E422C73992001C7CD0 /* Servicies */,
 				1E76715722BE0D3B00FF2A66 /* Utilities */,
 				1E76715022BDCB2200FF2A66 /* Model */,
@@ -121,6 +126,14 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1E6E97DF22D9772D00E313E1 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E97DC22D976F200E313E1 /* ProfileVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		1E76714E22BDCB0D00FF2A66 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +142,7 @@
 				1E76715A22BE156700FF2A66 /* LoginVC.swift */,
 				1E76715C22BE25AE00FF2A66 /* CreateAccountVC.swift */,
 				1ED934AE22D092EE00C4385F /* AvatarPickerVC.swift */,
+				1E6E97DB22D976F200E313E1 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6E97DE22D976F200E313E1 /* ProfileVC.xib in Resources */,
 				1E54FA2C22B5EB0100584E73 /* LaunchScreen.storyboard in Resources */,
 				1E54FA2922B5EB0100584E73 /* Assets.xcassets in Resources */,
 				1E54FA2722B5EAF800584E73 /* Main.storyboard in Resources */,
@@ -295,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6E97DD22D976F200E313E1 /* ProfileVC.swift in Sources */,
 				1E76715422BDCBA200FF2A66 /* ChannelVC.swift in Sources */,
 				1ED934AF22D092EE00C4385F /* AvatarPickerVC.swift in Sources */,
 				1E0327FE22C761F300373F01 /* RoundedButton.swift in Sources */,
