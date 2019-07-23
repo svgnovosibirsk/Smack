@@ -163,20 +163,6 @@ class AuthService {
             print(error)
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
     
 }

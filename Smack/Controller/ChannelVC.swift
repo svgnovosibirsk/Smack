@@ -122,16 +122,5 @@ class ChannelVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         self.revealViewController().revealToggle(animated: true)
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
 }

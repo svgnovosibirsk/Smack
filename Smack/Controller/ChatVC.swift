@@ -188,15 +188,5 @@ class ChatVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return MessageService.instance.messages.count
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
 }

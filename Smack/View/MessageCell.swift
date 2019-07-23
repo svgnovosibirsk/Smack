@@ -29,6 +29,4 @@ class MessageCell: UITableViewCell {
         userImg.backgroundColor = UserDataService.instance.returnUIColor(component: message.userAvatarColor)
     }
 
-
-
 }

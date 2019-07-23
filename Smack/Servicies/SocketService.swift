@@ -76,15 +76,5 @@ class SocketService: NSObject {
             completion(typingUsers)
         }
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
 }
